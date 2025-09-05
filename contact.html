@@ -26,18 +26,25 @@
       <h2>Contact Us</h2>
       <p>If you have any questions, suggestions, or collaboration ideas, feel free to reach out. We’d love to hear from you!</p>
 
-      <form action="mailto:svishan201@gmail.com" method="POST" enctype="text/plain">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+      <form action="https://formspree.io/f/xnnbolgl" method="POST">
+  <label>
+    Your Name:
+    <input type="text" name="name" required>
+  </label>
+  <br>
+  <label>
+    Your Email:
+    <input type="email" name="email" required>
+  </label>
+  <br>
+  <label>
+    Your Message:
+    <textarea name="message" required></textarea>
+  </label>
+  <br>
+  <button type="submit">Send</button>
+</form>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" required></textarea><br><br>
-
-        <button type="submit">Send Message</button>
-      </form>
     </section>
   </main>
 
@@ -48,4 +55,5 @@
   </footer>
 </body>
 </html>
+
 
