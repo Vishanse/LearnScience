@@ -92,7 +92,7 @@ footer {
 }
 
 
-<style>
+
   <style>
         body {
             background-color: #f2f2f2; /* light gray background outside the box */
@@ -157,7 +157,7 @@ footer {
             margin-right: 10px;
         }
 
-    </style>
+  
 </style>
 
 .related-articles {
@@ -190,6 +190,7 @@ footer {
 .related-articles a:focus {
   text-decoration: underline;
 }
+
 
 
 
