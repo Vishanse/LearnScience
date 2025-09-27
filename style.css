@@ -6,8 +6,7 @@
 }
 
 body {
-justify-content: center; /* Center horizontally */
-      align-items: center;  
+ 
 
   
   font-family: Arial, sans-serif;
@@ -17,7 +16,7 @@ justify-content: center; /* Center horizontally */
 }
 
 .container {
-  text-align: center;
+  
   width: 90%;
   max-width: 1000px;
   margin: auto;
@@ -95,4 +94,5 @@ footer {
     margin: 0 auto 20px;
   }
 }
+
 
