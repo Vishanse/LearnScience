@@ -1,132 +1,122 @@
-/* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+    }
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f8f8f8;
-  color: #333;
-}
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      line-height: 1.6;
+      background: #fafafa;
+      color: #222;
+      margin: 0;
+      padding: 0 1rem;
+    }
 
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-}
+    main {
+      max-width: 860px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 6px;
+      box-shadow: 0 4px 10px rgb(0 0 0 / 0.05);
+    }
 
-header {
-  background: #2c3e50;
-  color: white;
-  padding: 20px 0;
-}
+    h1, h2, h3, h4 {
+      color: #222;
+      margin-top: 1.6rem;
+      margin-bottom: 0.6rem;
+      line-height: 1.2;
+    }
 
-header h1 {
-  margin-bottom: 10px;
-}
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      border-bottom: 2px solid #0073e6;
+      padding-bottom: 0.2rem;
+    }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 15px;
-}
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+    h3 {
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
 
-nav a:hover {
-  text-decoration: underline;
-}
+    p {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      color: #333;
+    }
 
-.intro, .articles {
-  margin: 30px 0;
-}
+    ul, ol {
+      margin-left: 1.25rem;
+      margin-bottom: 1rem;
+    }
 
-.articles article {
-  background: white;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+    ul li, ol li {
+      margin-bottom: 0.5rem;
+    }
 
-.articles article h3 a {
-  color: #2c3e50;
-  text-decoration: none;
-}
+    /* Emoji-friendly inline icons */
+    .emoji {
+      font-size: 1.2rem;
+      margin-right: 0.4rem;
+      vertical-align: middle;
+    }
 
-.articles article h3 a:hover {
-  text-decoration: underline;
-}
+    /* Highlight box for tips or notes */
+    .tip {
+      background-color: #e7f3ff;
+      border-left: 5px solid #0073e6;
+      padding: 1rem 1.2rem;
+      margin: 1.5rem 0;
+      border-radius: 4px;
+      color: #004a99;
+      font-style: italic;
+      font-size: 0.95rem;
+    }
 
-footer {
-  text-align: center;
-  background: #2c3e50;
-  color: white;
-  padding: 15px 0;
-  margin-top: 40px;
-}
+    /* Responsive images if you add any later */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem 0;
+      border-radius: 6px;
+    }
 
+    /* Ad container placeholder */
+    .adsense-container {
+      margin: 2rem 0;
+      text-align: center;
+    }
 
-.sidebar-image {
-  float: right;
-  margin: 0 0 20px 20px;
-  max-width: 250px;
-  width: 100%;
-  height: auto;
-}
+    /* Links styling */
+    a {
+      color: #0073e6;
+      text-decoration: none;
+    }
 
-@media (max-width: 768px) {
-  .sidebar-image {
-    float: none;
-    display: block;
-    margin: 0 auto 20px;
-  }
-}
- 
+    a:hover, a:focus {
+      text-decoration: underline;
+    }
 
-        /* Main content box */
-        .article-container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
-            max-width: 800px;
-            margin: 40px auto;
-        }
+    /* Accessibility */
+    strong {
+      font-weight: 600;
+    }
 
-        h1 {
-            border-bottom: 2px solid #0077cc;
-            padding-bottom: 10px;
-        }
-
-        h2 {
-            margin-top: 30px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        /* Optional: Make emoji headings a bit bigger */
-        h1, h2 {
-            display: flex;
-            align-items: center;
-        }
-
-        h1::before, h2::before {
-            margin-right: 10px;
-        }
-
-
+    /* Code or technical terms */
+    code {
+      background-color: #f5f5f5;
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+      font-family: monospace, monospace;
+      font-size: 0.95rem;
+    }
+  </style>
