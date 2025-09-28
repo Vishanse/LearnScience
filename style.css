@@ -7,7 +7,8 @@
 
 body {
  
-
+ justify-content: center; /* Center horizontally */
+ align-items: center; 
   
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -42,7 +43,7 @@ nav ul {
 nav a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  
 }
 
 nav a:hover {
@@ -110,9 +111,29 @@ footer {
 }
 
 
+.fun-fact, .note {
+      background-color: #E1F5FE;
+      border-left: 4px solid #03A9F4;
+      padding: 10px 15px;
+      margin: 15px 0;
+      font-style: italic;
+    }
 
 
+table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
 
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
 
 
 
