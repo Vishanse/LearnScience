@@ -95,18 +95,27 @@ footer {
   }
 }
 
-/* Ensure all ordered/unordered lists inside articles are nicely aligned */
-article ol, article ul, .post-content ol, .post-content ul {
-  margin-left: 1.5em;        /* indent from left edge */
-  padding-left: 0.5em;       /* internal padding */
-  list-style-position: inside;  /* bullets/numbers inside the content area */
-}
 
-/* Make sure the article container allows space for bullets */
-.article-content, .post-content {
-  padding-left: 1em;
-  box-sizing: border-box;
-  overflow: visible;
-}
+<style>
+  /* Tweak for ordered and unordered lists */
+  ol, ul {
+    list-style-position: inside;
+    padding-left: 1em;
+    margin-left: 0;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  /* Optional: limit max width of main content */
+  .post-content, article, main {
+    max-width: 700px;
+    margin: auto;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+</style>
+
 
 
