@@ -59,6 +59,20 @@ nav a:hover {
   margin-bottom: 15px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+
+
+ ol, ul {
+    list-style-position: inside;
+    padding-left: 1em;
+    margin-left: 0;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+
+
+  
 }
 
 .articles article h3 a {
@@ -96,26 +110,7 @@ footer {
 }
 
 
-<style>
-  /* Tweak for ordered and unordered lists */
-  ol, ul {
-    list-style-position: inside;
-    padding-left: 1em;
-    margin-left: 0;
-  }
 
-  li {
-    margin-bottom: 0.5em;
-  }
-
-  /* Optional: limit max width of main content */
-  .post-content, article, main {
-    max-width: 700px;
-    margin: auto;
-    padding: 1em;
-    box-sizing: border-box;
-  }
-</style>
 
 
 
