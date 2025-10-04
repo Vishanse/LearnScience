@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Code Snippets – CodeCraft</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">
+        <span class="mark"></span>
+        <span>CodeCraft</span>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="tutorials.html">Tutorials</a>
+        <a href="snippets.html">Snippets</a>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>SQL Code Snippets</h1>
+    <p class="muted">Copy-paste ready examples for your projects.</p>
+
+    <div class="grid cols-2">
+      
+      <!-- Snippet 1 -->
+      <article class="card">
+        <h2> CMD command   </h2>
+        <pre><code>   CD C:\xampp\mysql\bin  </code></pre>
+        <p>press enter button</p>
+<pre><code>   mysql.exe -u root -p </code></pre>
+        <p>press again enter button</p>
+        <P>If there's no password, just press Enter again</P>
+      </article>
+      
+
+      <!-- Snippet 2 -->
+      <article class="card">
+        <h2> Create database   </h2>
+        <pre><code>  create database dbuniversity;         </code></pre>
+      </article>
+
+       <!-- Snippet 3 -->
+      <article class="card">
+        <h2> Show databases </h2>
+        <pre><code>  show databases;    </code></pre>
+      </article>
+
+  <!-- Snippet 4 -->
+      <article class="card">
+        <h2> Use database </h2>
+        <pre><code>  use dbuniversity;  </code></pre>
+      </article>
+
+     
+ <!-- Snippet 5 -->
+      <article class="card">
+        <h2> create table university </h2>
+        <pre><code>  CREATE TABLE university (
+    ID VARCHAR(10) PRIMARY KEY,
+    Name VARCHAR(30) NOT NULL,
+    ChargePerTerm DECIMAL(10, 2),
+    NumOfTerms INT(3) NOT NULL
+);  </code></pre>
+      </article>
+
+
+<!-- Snippet 6-->
+      <article class="card">
+        <h2> Desc university </h2>
+        <pre><code> desc university;  </code></pre>
+      </article>
+
+
+<!-- Snippet 7-->
+      <article class="card">
+        <h2> Create table Student </h2>
+        <pre><code> CREATE TABLE Student (
+    UniID VARCHAR(10),
+    IndexNo VARCHAR(10) NOT NULL,
+    Name VARCHAR(50) NOT NULL,
+    DateJoined DATE NOT NULL,
+    PRIMARY KEY (UniID, IndexNo),
+    FOREIGN KEY (UniID) REFERENCES University(ID)
+); </code></pre>
+      </article>
+
+
+<!-- Snippet 8-->
+      <article class="card">
+        <h2> Describe Student </h2>
+        <pre><code>  desc Student; </code></pre>
+      </article>
+
+<!-- Snippet 9-->
+      <article class="card">
+        <h2> Insert into university </h2>
+        <pre><code> INSERT INTO university
+VALUES
+    ('U001', 'University of Technology', 50000.00, 2),
+    ('U002', 'University of AppliedScience', 12000.00, 3); </code></pre>
+      </article>
+
+<!-- Snippet 10-->
+      <article class="card">
+        <h2> Insert into Student </h2>
+        <pre><code>  </code></pre>
+      </article>
+
+
+
+
+
+
+
+      
+    
+    </div>
+
+  
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <section>
+        <h3>About</h3>
+        <p>CodeCraft provides short, practical HTML & CSS tutorials for beginners.</p>
+      </section>
+      <section>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="tutorials.html">Tutorials</a></li>
+          <li><a href="snippets.html">Snippets</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>Contact</h3>
+        <ul>
+          <li>Email: you@example.com</li>
+          <li>Location: Your City, Country</li>
+        </ul>
+      </section>
+    </div>
+    <div class="container">© 2025 CodeCraft. All rights reserved.</div>
+  </footer>
+</body>
+</html>
+
+
+
