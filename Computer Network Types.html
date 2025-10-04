@@ -128,13 +128,52 @@
     <section>
         <h2>Common Types of Network Topologies</h2>
 
-        <h3>1. Bus Topology</h3>
-        <p>All devices share a single central cable.</p>
-        <ul>
-            <li><strong>Advantages:</strong> Inexpensive, easy to set up.</li>
-            <li><strong>Disadvantages:</strong> Failure of the main cable takes down the network.</li>
-        </ul>
+      <section>
+    <h3>1.What is Bus Topology?</h3>
+    <p>A <strong>bus topology</strong> is a network layout where all devices connect to a single central cable called the <em>bus</em> or backbone. This shared cable acts as the main communication channel for data transfer.</p>
+    <p>Think of it as a highway where vehicles (devices) enter and exit at different points. Data sent by any device travels along the bus until it reaches the intended recipient.</p>
+  </section>
 
+  <section>
+    <h2>How Does Bus Topology Work?</h2>
+    <p>Devices connect to the main bus cable using drop lines. Data travels in both directions along the bus, and each device listens for data addressed to it.</p>
+    <p>Terminators placed at both ends of the bus prevent signal reflections that could cause errors.</p>
+  </section>
+
+  <section>
+    <h2>Advantages of Bus Topology</h2>
+    <ul>
+      <li><strong>Simple and Cost-Effective:</strong> Requires minimal cabling and is easy to set up.</li>
+      <li><strong>Easy to Expand:</strong> New devices can be added easily by connecting to the bus.</li>
+      <li><strong>Suitable for Small Networks:</strong> Ideal for networks with few devices and low traffic.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Disadvantages of Bus Topology</h2>
+    <ul>
+      <li><strong>Limited Cable Length and Device Count:</strong> Exceeding limits can cause signal loss and network failure.</li>
+      <li><strong>Single Point of Failure:</strong> Damage to the main cable can bring down the entire network.</li>
+      <li><strong>Performance Issues:</strong> Data collisions can occur, slowing down network communication.</li>
+      <li><strong>Challenging Troubleshooting:</strong> Problems on the bus affect all connected devices, making diagnosis tricky.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Where is Bus Topology Used?</h2>
+    <p>Though less common today, bus topology is still used in:</p>
+    <ul>
+      <li>Small Local Area Networks (LANs) with few devices</li>
+      <li>Temporary setups or testing environments</li>
+      <li>Legacy systems that have not transitioned to newer topologies</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Conclusion</h2>
+    <p>Bus topology is a straightforward and budget-friendly way to connect devices, particularly suitable for small or temporary networks. However, its limitations in scalability and fault tolerance mean it’s less favored for modern, large-scale systems.</p>
+    <p>Understanding bus topology provides a solid foundation for learning more complex network designs.</p>
+  </section>
         <h3>2. Star Topology</h3>
         <p>Each device connects to a central hub or switch.</p>
         <ul>
