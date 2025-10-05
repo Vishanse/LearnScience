@@ -111,7 +111,146 @@ VALUES
 <!-- Snippet 10-->
       <article class="card">
         <h2> Insert into Student </h2>
-        <pre><code>  </code></pre>
+        <pre><code>      INSERT INTO Student
+VALUES
+('U001', 'ST00001', 'Tommy', '1995/06/05'),
+('U001', 'ST00002', 'Linda', '1995/06/22'),
+('U002', 'ST00003', 'Mathives', '1995/06/30'),
+('U002', 'ST00001', 'Tommy', '1995/06/30');     </code></pre>
+      </article>
+
+
+<!-- Snippet 11-->
+      <article class="card">
+        <h2> Select all from university </h2>
+        <pre><code>  select * from university;      </code></pre>
+      </article>
+
+
+<!-- Snippet 12-->
+      <article class="card">
+        <h2> Select all from student </h2>
+        <pre><code> select * from Student;       </code></pre>
+      </article>
+      
+
+<!-- Snippet 13-->
+      <article class="card">
+        <h2> Select name from student </h2>
+        <pre><code> select Name from Student;       </code></pre>
+      </article>
+
+
+
+<!-- Snippet 14-->
+      <article class="card">
+        <h2> Select name as "Undergraduates" from students </h2>
+        <pre><code>  select Name as "Undergraduates" from Student;      </code></pre>
+      </article>
+
+
+
+<!-- Snippet 15-->
+      <article class="card">
+        <h2> Select indexno, name from students </h2>
+        <pre><code>  select indexno, Name from Student;      </code></pre>
+      </article>
+
+
+
+<!-- Snippet 16-->
+      <article class="card">
+        <h2> Select indexno, name as "Undergraduates" from students </h2>
+        <pre><code>   select indexno, Name as "Undergraduates" from Students;     </code></pre>
+      </article>
+
+
+<!-- Snippet 17-->
+      <article class="card">
+        <h2> Select indexno, name as "Undergraduates" from students Order By indexno Desc </h2>
+        <pre><code>    select indexno, Name as "Undergraduates" from Student Order By indexno Desc;    </code></pre>
+      </article>
+
+
+
+<!-- Snippet 18-->
+      <article class="card">
+        <h2> Select indexno, name as "Undergraduates" from students Order By name Desc </h2>
+        <pre><code>   select indexno, Name as "Undergraduates" from Student Order By name Desc;    </code></pre>
+      </article>
+
+
+
+<!-- Snippet 19-->
+      <article class="card">
+        <h2> Select distinct name from students </h2>
+        <pre><code>  Select distinct name from Student;   </code></pre>
+      </article>
+
+
+<!-- Snippet 20-->
+      <article class="card">
+        <h2>  ALTER table university  </h2>
+        <pre><code>  ALTER table university 
+        ADD column
+        Payment double(10,2);
+        
+        
+        </code></pre>
+      </article>
+
+
+
+<!-- Snippet 21-->
+      <article class="card">
+        <h2>  Desc university </h2>
+        <pre><code>  desc university;  </code></pre>
+      </article>
+
+
+<!-- Snippet 22-->
+      <article class="card">
+        <h2>   Select all from university    </h2>
+        <pre><code>     select * from university;     </code></pre>
+      </article>
+
+
+<!-- Snippet 23-->
+      <article class="card">
+        <h2>   Update university   </h2>
+        <pre><code>    UPDATE university   
+        SET Payment = (  ChargePerTerm * NumOfTerms  )+2500;
+        
+        </code></pre>
+      </article>
+
+
+<!-- Snippet 24-->
+      <article class="card">
+        <h2>   Select all from university   </h2>
+        <pre><code>  select * from university;   </code></pre>
+      </article>
+
+<!-- Snippet 25-->
+      <article class="card">
+        <h2>    Select payment from university where name like 'university of technology'  </h2>
+        <pre><code>  select payment from university where Name like 'University of Technology';   </code></pre>
+      </article>
+
+
+
+<!-- Snippet 26-->
+      <article class="card">
+        <h2>  Select payment all 1000 as "Income" from university where name like 'university of technology'    </h2>
+        <pre><code>  select payment * 1000 as "Income" from university where Name like 'University of Technology';  </code></pre>
+      </article>
+
+
+
+<!-- Snippet 27-->
+      <article class="card">
+        <h2>  Select count (IndexNo) from student where uniid like 'UOO1'   </h2>
+        <pre><code>  select count (IndexNo) from Student where uniid LIKE 'UOO1'  </code></pre>
       </article>
 
 
@@ -120,8 +259,11 @@ VALUES
 
 
 
+
+
+
       
-    
+      
     </div>
 
   
