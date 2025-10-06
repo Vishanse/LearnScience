@@ -16,52 +16,6 @@
       line-height: 1.6;
     }
 
-/* Container forces vertical stacking (image on top, pre below) */
-.figure {
-  display: flex;
-  flex-direction: column; /* image then caption then pre */
-  align-items: center;    /* center contents horizontally */
-  gap: 0.75rem;           /* small space between items */
-  margin: 1.25rem auto;
-  width: 100%;
-  max-width: 900px;       /* adjust as desired */
-  padding: 0 1rem;
-  box-sizing: border-box;
-}
-
-/* Responsive image */
-.figure-img {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-height: 60vh;      /* optional: avoid extremely tall images */
-  object-fit: cover;     /* keeps image well-proportioned */
-  border-radius: 6px;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
-}
-
-/* Caption styling (optional) */
-.figure-caption {
-  font-size: 0.95rem;
-  color: #555;
-  width: 100%;
-  text-align: left; /* or center */
-}
-
-/* Code block styling */
-.code-block {
-  width: 100%;
-  overflow-x: auto;     /* allow horizontal scroll on very long lines */
-  white-space: pre-wrap;/* wrap long lines on small screens */
-  background: #f6f7f8;
-  border: 1px solid #e1e4e8;
-  padding: 1rem;
-  border-radius: 6px;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 0.95rem;
-  line-height: 1.45;
-  color: #1b1f23;
-}
 
 /* Small screens: slightly reduce paddings */
 @media (max-width: 480px) {
@@ -70,28 +24,8 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
-    }
+    
   </style>
 </head>
 <body>
@@ -113,19 +47,18 @@
 
 <h1>HTML Example 2</h1>
 
-  <!-- Put this where you want the image + code block -->
-<figure class="figure">
-  <img src="images/your-image.jpg" alt="Descriptive alt text" class="figure-img">
-  <figcaption class="figure-caption">Optional caption under the image</figcaption>
 
-  <pre class="code-block">
-/* Your code here */
-function hello() {
-  console.log("Hello world");
-}
-  </pre>
-</figure>
+ <div class="section">
+    <div class="image-box">
+      <img src="newimages/html mark tag.PNG    " alt="PHP Code Screenshot" />
+    </div>
+    <div class="code-box">
+      <pre><code>
+"Hello, World!";
 
+      </code></pre>
+    </div>
+  </div>
 
 
 
