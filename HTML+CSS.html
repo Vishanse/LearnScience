@@ -251,7 +251,151 @@
 
 </div>
 
+ <header>
+    <h1>🎨 Basic CSS Tutorial for Beginners: Learn How to Style Your Web Pages</h1>
+    <p>Learn the fundamentals of CSS — the language that brings design to your HTML pages.</p>
+  </header>
 
+  <main>
+    <article>
+      <section>
+        <h2>✅ What is CSS?</h2>
+        <p>CSS stands for <strong>Cascading Style Sheets</strong>. It is used to control the look and feel of HTML elements on a webpage. While HTML creates the structure of your web content, <strong>CSS makes it visually appealing</strong>.</p>
+      </section>
+
+      <section>
+        <h2>📁 How to Add CSS to HTML</h2>
+        <p>There are three main ways to apply CSS to your HTML page:</p>
+
+        <h3>1. Inline CSS</h3>
+        <pre><code>&lt;p style="color: blue;"&gt;This is a blue paragraph.&lt;/p&gt;</code></pre>
+
+        <h3>2. Internal CSS</h3>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    h1 {
+      color: green;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello, world!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+        <h3>3. External CSS</h3>
+        <p><strong>HTML (index.html):</strong></p>
+        <pre><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></pre>
+
+        <p><strong>CSS (styles.css):</strong></p>
+        <pre><code>body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}</code></pre>
+      </section>
+
+      <section>
+        <h2>🎯 Basic CSS Syntax</h2>
+        <p>CSS follows a simple rule-based syntax:</p>
+        <pre><code>selector {
+  property: value;
+}</code></pre>
+        <p><strong>Example:</strong></p>
+        <pre><code>p {
+  color: red;
+  font-size: 16px;
+}</code></pre>
+      </section>
+
+      <section>
+        <h2>🌈 Common CSS Properties</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Description</th>
+              <th>Example</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>color</td>
+              <td>Text color</td>
+              <td>color: blue;</td>
+            </tr>
+            <tr>
+              <td>background</td>
+              <td>Background color or image</td>
+              <td>background: yellow;</td>
+            </tr>
+            <tr>
+              <td>font-size</td>
+              <td>Size of the text</td>
+              <td>font-size: 18px;</td>
+            </tr>
+            <tr>
+              <td>margin</td>
+              <td>Space outside the element</td>
+              <td>margin: 10px;</td>
+            </tr>
+            <tr>
+              <td>padding</td>
+              <td>Space inside the element</td>
+              <td>padding: 15px;</td>
+            </tr>
+            <tr>
+              <td>border</td>
+              <td>Adds a border</td>
+              <td>border: 1px solid black;</td>
+            </tr>
+            <tr>
+              <td>text-align</td>
+              <td>Aligns text</td>
+              <td>text-align: center;</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>📦 CSS Box Model</h2>
+        <p>Every HTML element can be thought of as a box, with the following layers:</p>
+        <ol>
+          <li><strong>Content</strong> – the text or image</li>
+          <li><strong>Padding</strong> – space around the content</li>
+          <li><strong>Border</strong> – wraps the padding and content</li>
+          <li><strong>Margin</strong> – space outside the border</li>
+        </ol>
+        <p>Understanding the box model helps in aligning and spacing elements properly.</p>
+      </section>
+
+      <section>
+        <h2>💡 Tips for Beginners</h2>
+        <ul>
+          <li>Use <strong>external CSS files</strong> to keep your code clean and organized.</li>
+          <li>Use browser developer tools (Inspect) to test CSS styles.</li>
+          <li>Start simple. Practice by styling basic HTML elements.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>📚 Next Steps</h2>
+        <p>Once you're comfortable with the basics, explore:</p>
+        <ul>
+          <li>CSS Flexbox and Grid</li>
+          <li>Responsive design with media queries</li>
+          <li>CSS transitions and animations</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>🔚 Conclusion</h2>
+        <p>CSS is a powerful tool that brings life to your HTML pages. With just a few lines of CSS, you can make your website more attractive and user-friendly. Keep experimenting and building!</p>
+      </section>
+    </article>
 
 
 
