@@ -8,6 +8,27 @@
 
     <h3>Example:</h3>
     <pre><code>&lt;button class="btn"&gt;Hover Me&lt;/button&gt;</code></pre>
+ <pre><code>   .btn {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: green;
+}       </code></pre>
+
+
+
+
+
+
+
+
+
+
 
     <p>Result: Hover over the button below:</p>
     <button class="btn">Hover Me</button>
@@ -17,7 +38,21 @@
 
     <h3>Example:</h3>
     <pre><code>&lt;div class="box"&gt;&lt;/div&gt;</code></pre>
+<pre><code>  .box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: moveBox 2s infinite alternate;
+}
 
+@keyframes moveBox {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}      </code></pre>
     <p>Result:</p>
     <div class="box"></div>
 
