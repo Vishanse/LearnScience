@@ -18,7 +18,7 @@ body {
 
 .container {
   
-  width: 100%;
+  width: 1500%;
   max-width: 800px;
   margin: auto;
   padding: 20px;
@@ -146,6 +146,7 @@ table {
       padding: 10px;
       text-align: left;
     }
+
 
 
 
