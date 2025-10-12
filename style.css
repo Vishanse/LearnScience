@@ -111,6 +111,18 @@ footer {
 }
 
 
+
+/* Small screens: slightly reduce paddings */
+@media (max-width: 480px) {
+  .figure { padding: 0 0.6rem; }
+  .code-block { padding: 0.8rem; font-size: 0.9rem; }
+}
+
+
+
+
+
+
 .fun-fact, .note {
       background-color: #E1F5FE;
       border-left: 4px solid #03A9F4;
@@ -134,6 +146,7 @@ table {
       padding: 10px;
       text-align: left;
     }
+
 
 
 
