@@ -15,7 +15,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   padding: 20px;
 }
@@ -152,6 +152,17 @@ footer {
   }
 }
 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+
+
+
+
+
 /* Small screens (phones) */
 @media (max-width: 480px) {
   .container {
@@ -177,6 +188,7 @@ footer {
     font-size: 1.5rem;
   }
 }
+
 
 
 
