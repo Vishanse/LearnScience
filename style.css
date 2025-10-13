@@ -87,16 +87,16 @@ footer {
 }
 
 
-.sidebar-image {
+.image {
   float: right;
-  margin: 0 0 20px 20px;
-  max-width: 250px;
-  width: 100%;
+  margin: auto;
+  max-width: auto;
+  width: auto;
   height: auto;
 }
 
 @media (max-width: 768px) {
-  .sidebar-image {
+  .image {
     float: none;
     display: block;
     margin: 0 auto 20px;
@@ -139,6 +139,7 @@ table {
       padding: 10px;
       text-align: left;
     }
+
 
 
 
