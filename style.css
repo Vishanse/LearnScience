@@ -89,8 +89,8 @@ footer {
 
 
 .responsive-image {
-  width: 100%;
-  height: 300px; /* or any fixed/relative height */
+  width: auto;
+  height: auto; /* or any fixed/relative height */
   object-fit: cover; /* or "contain" depending on your need */
 }
 
@@ -139,6 +139,7 @@ table {
       padding: 10px;
       text-align: left;
     }
+
 
 
 
