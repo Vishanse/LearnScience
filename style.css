@@ -11,10 +11,10 @@ body {
 
 .container {
   
-  width: 1500%;
-  max-width: 800px;
+  width: auto;
+  max-width: auto;
   margin: auto;
-  padding: 20px;
+  padding: auto;
 }
 
 header {
@@ -139,6 +139,7 @@ table {
       padding: 10px;
       text-align: left;
     }
+
 
 
 
