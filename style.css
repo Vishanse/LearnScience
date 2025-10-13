@@ -126,7 +126,7 @@ footer {
 
 
 table {
-      width: 100%;
+      width: auto;
       border-collapse: collapse;
       margin: 20px 0;
     }
@@ -139,6 +139,7 @@ table {
       padding: 10px;
       text-align: left;
     }
+
 
 
 
