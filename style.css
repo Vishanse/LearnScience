@@ -97,11 +97,13 @@ img {
 
 
 
-
-
-
-
-
+@media (max-width: 768px) {
+  .image {
+    float: none;
+    display: block;
+    margin: 0 auto 20px;
+  }
+}
 
 
 
@@ -139,6 +141,7 @@ table {
       padding: 10px;
       text-align: left;
     }
+
 
 
 
