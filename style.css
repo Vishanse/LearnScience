@@ -9,6 +9,14 @@ body {
   color: #333;
 }
 
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
 .container {
   
   width: auto;
@@ -141,6 +149,7 @@ table {
       padding: 10px;
       text-align: left;
     }
+
 
 
 
