@@ -234,20 +234,7 @@
     <!-- Paste all your existing content here -->
   </div>
 
-  <!-- Sidebar -->
-  <aside style="flex:1; min-width:200px; padding:15px; background:#f5f5f5; border-radius:8px; box-shadow:0 0 5px rgba(0,0,0,0.1);">
-    <h3 style="color:#007bff; margin-bottom:10px;">Related HTML Topics</h3>
-    <ul style="list-style:none; padding:0; font-size:16px; line-height:1.8;">
-      <li><a href="HTMLheadings.html" style="color:#007bff; text-decoration:none;">HTML Headings</a></li>
-      <li><a href="HTMLparagraphs.html" style="color:#007bff; text-decoration:none;">Paragraphs in HTML</a></li> 
-      <li><a href="HTMLlists.html" style="color:#007bff; text-decoration:none;">Ordered & Unordered Lists</a></li>
-      <li><a href="HTMLtables.html" style="color:#007bff; text-decoration:none;">Tables in HTML</a></li>
-      <li><a href="HTMLimages.html" style="color:#007bff; text-decoration:none;">Images in HTML</a></li>
-      <li><a href="HTMLlinks.html" style="color:#007bff; text-decoration:none;">Links in HTML</a></li>
-      <li><a href="HTMLforms.html" style="color:#007bff; text-decoration:none;">Forms in HTML</a></li>
-      <li><a href="HTMLsemantic.html" style="color:#007bff; text-decoration:none;">Semantic Tags</a></li>
-    </ul>
-  </aside>
+  
 
 </div>
 
@@ -280,12 +267,8 @@
   <main class="container">
     <section class="intro">
      
-<h1>Centered heading</h1>
-      <P>  To center a heading in HTML, you can simply use the <strong>style attribute</strong> with the
-    <code>text-align:center;</code> property. This tells the browser to align the heading text in the middle of the page.
-    For example: <code>&lt;h2 style="text-align:center;"&gt;Centered Heading&lt;/h2&gt;</code>.
-    It’s an easy and it only changes how text is displayed—it doesn’t hide
-    or overlap any elements. Always keep your text readable and well-spaced for a clean, professional look.          </P>
+   <h1>HTML Tag Examples and Expl
+    anations</h1>
 
  
 
@@ -294,468 +277,95 @@
      style="display:block; margin:auto; width:900px; height:250px;"/>
 
 
+<!-- Main article -->
+  <article>
+    <h2>Introduction</h2>
+    <p>
+      This article explores commonly used HTML tags with real-world examples and clear explanations. These are helpful for students learning web development or preparing for exams.
+    </p>
 
+    <section>
+      <h2>1. <code>&lt;mark&gt;</code> Tag – Highlight Text</h2>
+      <p>The <code>&lt;mark&gt;</code> tag is used to highlight text with a yellow background.</p>
+      <pre><code>&lt;p&gt;Learn &lt;mark&gt;HTML&lt;/mark&gt; today!&lt;/p&gt;</code></pre>
+    </section>
 
-      
+    <section>
+      <h2>2. <code>&lt;b&gt;</code> vs <code>&lt;strong&gt;</code> – Bold Text</h2>
+      <p>Both make text bold, but <code>&lt;strong&gt;</code> also adds semantic importance for screen readers.</p>
+      <pre><code>&lt;p&gt;This is &lt;b&gt;bold&lt;/b&gt; text.&lt;/p&gt;
+&lt;p&gt;This is &lt;strong&gt;important&lt;/strong&gt; text.&lt;/p&gt;</code></pre>
+    </section>
 
+    <section>
+      <h2>3. <code>&lt;article&gt;</code> and <code>&lt;header&gt;</code> – Structure Content</h2>
+      <p>Use <code>&lt;article&gt;</code> for independent content blocks and <code>&lt;header&gt;</code> to group introductory content.</p>
+      <pre><code>&lt;article&gt;
+  &lt;header&gt;&lt;h2&gt;Blog Post&lt;/h2&gt;&lt;/header&gt;
+  &lt;p&gt;Welcome to my post.&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+    </section>
 
-<h1> Mark tag</h1>
-      <P>  The <strong>&lt;mark&gt;</strong> tag in HTML is used to <em>highlight</em> or emphasize important text within a paragraph.
-    When applied, it gives the selected text a yellow background by default, helping readers notice key terms or phrases.
-    For example: <code>&lt;p&gt;HTML stands for &lt;mark&gt;HyperText Markup Language&lt;/mark&gt;.&lt;/p&gt;</code> will display
-    the words “HyperText Markup Language” with a highlight effect. This tag is completely improves readability and does not hide or mislead content. Use it to draw attention to definitions,
-    keywords, or short notes in your articles.      </P>
+    <section>
+      <h2>4. <code>&lt;div&gt;</code> – Group Elements</h2>
+      <p>The <code>&lt;div&gt;</code> tag groups content for styling or scripting.</p>
+      <pre><code>&lt;div style="background:#f0f0f0; padding:10px;"&gt;
+  &lt;h2&gt;Section&lt;/h2&gt;
+  &lt;p&gt;This is inside a div.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+    </section>
 
+    <section>
+      <h2>5. <code>&lt;footer&gt;</code> – Bottom Content</h2>
+      <p>The <code>&lt;footer&gt;</code> tag defines a footer section with copyright or site links.</p>
+      <pre><code>&lt;footer&gt;&copy; 2025 LearnScience. All rights reserved.&lt;/footer&gt;</code></pre>
+    </section>
 
+    <section>
+      <h2>6. <code>&lt;table&gt;</code> with <code>colspan</code> & <code>rowspan</code></h2>
+      <p>Use tables for structured data. Combine cells using <code>colspan</code> or <code>rowspan</code>.</p>
+      <pre><code>&lt;table border="1"&gt;
+  &lt;tr&gt;
+    &lt;th rowspan="2"&gt;Name&lt;/th&gt;
+    &lt;th colspan="2"&gt;Scores&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Math&lt;/td&gt;
+    &lt;td&gt;Science&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+    </section>
 
+    <section>
+      <h2>7. <code>&lt;aside&gt;</code> – Side Info</h2>
+      <p>The <code>&lt;aside&gt;</code> tag is for related but separate content like tips or ads.</p>
+      <pre><code>&lt;aside&gt;💡 Tip: Use semantic tags for better SEO.&lt;/aside&gt;</code></pre>
+    </section>
 
-<img src=" newimages/ html mark tag.PNG  " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
+    <section>
+      <h2>8. Superscript & Subscript</h2>
+      <p>Use <code>&lt;sup&gt;</code> and <code>&lt;sub&gt;</code> for math and chemical formulas.</p>
+      <pre><code>H&lt;sub&gt;2&lt;/sub&gt;O | x&lt;sup&gt;2&lt;/sup&gt;</code></pre>
+    </section>
 
+    <section>
+      <h2>9. Back to Top Link</h2>
+      <p>Create internal anchors to jump to the top of the page.</p>
+      <pre><code>&lt;a href="#top"&gt;Back to Top&lt;/a&gt;</code></pre>
+    </section>
 
-
-      
-
-<h1>Bold text</h1>
-      <p>     In HTML, you can make text bold using the <strong>&lt;b&gt;</strong> or <strong>&lt;strong&gt;</strong> tag.
-    The <code>&lt;b&gt;</code> tag simply makes the text bold for visual emphasis, while the
-    <code>&lt;strong&gt;</code> tag also adds importance to the text, which helps with accessibility and SEO.
-    For example: <code>&lt;p&gt;This is &lt;b&gt;bold&lt;/b&gt; text.&lt;/p&gt;</code> or
-    <code>&lt;p&gt;This is &lt;strong&gt;important&lt;/strong&gt; text.&lt;/p&gt;</code>.
-    They only change the style of the text and do not hide
-    or manipulate content. Use bold text to highlight key points or headings so your content is easier to read.       </p>
-
-
-
-
-<img src=" newimages/ html mark tag.PNG  " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-      
-
-<h1>A Description List</h1>
-      <p> A <strong>description list</strong> in HTML is used to display a list of terms and their corresponding descriptions.
-    It helps organize definitions or key-value information in a clean and structured way.
-    A description list is created using the <code>&lt;dl&gt;</code> tag, along with
-    <code>&lt;dt&gt;</code> for the term and <code>&lt;dd&gt;</code> for its description.      </p>
-
- 
-
-
-<img src=" newimages/ A Description list html.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-      
-
-<h1>Article tag and Header tag</h1>
-      <p>  The <strong>&lt;article&gt;</strong> tag in HTML is used to define a self-contained piece of content, such as a blog post,
-    news story, or tutorial section. Each article should make sense on its own and can include headings, paragraphs, images,
-    or links. The <strong>&lt;header&gt;</strong> tag, on the other hand, is used to group introductory content or navigation
-    links at the top of a page or article. For example:
-    <code>&lt;article&gt;&lt;header&gt;&lt;h2&gt;My First Post&lt;/h2&gt;&lt;/header&gt;&lt;p&gt;This is my article.&lt;/p&gt;&lt;/article&gt;</code>.
-    Both tags improve the structure and meaning of your webpage, making it easier for search engines to understand.
-        </p>
-
- 
-
-<img src=" newimages/ Article 3.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-
-
-      
-<h1>Article tag and Image</h1>
-      <p>  The <strong>&lt;article&gt;</strong> tag in HTML is used to define a self-contained piece of content, such as a blog post,
-    news item, or tutorial. Inside an article, you can include headings, paragraphs, lists, and images to make the content informative and engaging.
-    The <strong>&lt;img src&gt;</strong> tag is used to display images on your webpage. The <code>src</code> attribute specifies the image file’s path,
-    and you can add <code>alt</code> text to describe the image for accessibility. For example:
-    <code>&lt;article&gt;&lt;h2&gt;My Science Experiment&lt;/h2&gt;&lt;img src="experiment.jpg" alt="Science experiment"&gt;&lt;p&gt;This experiment shows how plants grow.&lt;/p&gt;&lt;/article&gt;</code>.
-              </p>
-
- 
-
-<img src=" newimages/ Articles.png   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
+    
   
 
-<h1>Aside tag</h1>
-      <p>   The <strong>&lt;aside&gt;</strong> tag in HTML is used to define content that is related to the main content but separate from it, such as side notes, advertisements, or related links.
-    It is commonly used for sidebars, callouts, or additional information that complements the main article. For example:
-    <code>&lt;aside&gt;&lt;p&gt;Related topic: How plants perform photosynthesis.&lt;/p&gt;&lt;/aside&gt;</code>.
-       </p>
+    <h2>Conclusion</h2>
+    <p>Understanding these foundational HTML tags will help you structure webpages effectively. As you continue learning, try combining tags and adding CSS for better layouts and visuals.</p>
 
-  
-
-
-<img src=" newimages/ Aside 2.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-
+  </article>
 
       
 
-<h1>Back to top link</h1>
-      <p>  A "Back to Top" link in HTML allows users to quickly return to the top of a webpage without scrolling manually. 
-    You can create this feature using an anchor link. First, add an <code>id</code> to the top element, like 
-    <code>&lt;h1 id="top"&gt;My Page&lt;/h1&gt;</code>, and then create a link pointing to that ID: 
-    <code>&lt;a href="#top"&gt;Back to Top&lt;/a&gt;</code>.        </p>
 
-  
 
-
-<img src=" newimages/ Back to top.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-<h1>Div tag</h1>
-      <p> The <strong>&lt;div&gt;</strong> tag in HTML is a container element used to group other HTML elements together.
-    It does not add any visual effect on its own but is very useful for organizing content and applying styles with CSS.
-    For example, you can wrap a heading, paragraph, and image inside a <code>&lt;div&gt;</code> to style them as a single section:
-    <code>&lt;div style="background:#f5f5f5; padding:10px;"&gt;&lt;h2&gt;My Section&lt;/h2&gt;&lt;p&gt;This is a paragraph.&lt;/p&gt;&lt;/div&gt;</code>.  </p>
-
- 
-
-<img src=" newimages/ Dive tag 2.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-
-
-
-<h1>Footer tag</h1>
-      <p>   The <strong>&lt;footer&gt;</strong> tag in HTML is used to define the footer section of a webpage or a specific section of content. 
-    It typically contains information like copyright notices, contact details, links to privacy policies, or navigation links.
-    For example:
-    <code>&lt;footer&gt;&lt;p&gt;© 2025 LearnScienceXY. All rights reserved.&lt;/p&gt;&lt;/footer&gt;</code>.   </p>
-
- 
-
-<img src=" newimages/ Footer terms of service.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-
-
-<h1>Backgroung colour, font size , font family , font colour</h1>
-      <p> In HTML, you can customize the appearance of your webpage by changing the <strong>background color</strong>, <strong>font size</strong>, <strong>font family</strong>, and <strong>font color</strong> using the <code>style</code> attribute or CSS. 
-    For example, to set a light background with readable text, you can use: 
-    <code>&lt;body style="background-color:#f0f0f0; font-family:Arial, sans-serif; font-size:16px; color:#333;"&gt;</code>. 
-    Here, <code>background-color</code> sets the page’s background, <code>font-family</code> defines the text style, <code>font-size</code> controls the size of the text, and <code>color</code> sets the font color.    </p>
-
- 
-
-
-<img src=" newimages/ html font size.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-
-<h1>Rowspan</h1>
-      <p>  In HTML tables, the <strong>&lt;th&gt;</strong> tag is used to define table headers, and the <code>rowspan</code> attribute allows a header cell to span multiple rows. 
-    This is useful when you want a single header to cover several rows of related data, making the table easier to read. 
-    For example: <code>&lt;th rowspan="2"&gt;Name&lt;/th&gt;</code> will merge the header cell across two rows.     </p>
-
- 
-
-
-<img src=" newimages/ html rowspan.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-      
-<h1>Superscripted and Subscripted tag </h1>
-      <p>   In HTML, the <strong>&lt;sup&gt;</strong> tag is used to display text as superscript, which appears slightly above the normal text line. 
-    The <strong>&lt;sub&gt;</strong> tag displays text as subscript, appearing slightly below the normal text line. 
-    These tags are commonly used for mathematical expressions, chemical formulas, and footnotes. 
-    For example: <code>H&lt;sub&gt;2&lt;/sub&gt;O</code> displays the chemical formula for water, and <code>x&lt;sup&gt;2&lt;/sup&gt;</code> represents x squared.       </p>
-
- 
-
-
-<img src=" newimages/html superscripted text.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-
-      
-<h1>tr and td tag</h1>
-      <p>  In HTML, the <strong>&lt;tr&gt;</strong> tag is used to define a table row, and the <strong>&lt;td&gt;</strong> tag defines a table cell within that row. 
-    Together, they allow you to create structured tables for displaying data in rows and columns. 
-    For example: 
-    <code>&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;Age&lt;/td&gt;&lt;/tr&gt;</code> creates a row with two cells labeled "Name" and "Age."   </p>
-
- 
-
-<img src=" newimages/html tables 1.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-      
-
-
-<h1>Table width</h1>
-
-      <p> In HTML, you can make a table stretch across the full width of its container by using the <code>width="100%"</code> attribute or CSS styling. 
-    This ensures the table automatically adjusts to different screen sizes, making it more readable and responsive. 
-    For example: <code>&lt;table style="width:100%; border:1px solid #333;"&gt;&lt;/table&gt;</code> creates a table that spans the entire width of the page with a visible border.  </p>
-
-  
-
-
-<img src=" newimages/html tables 2.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-      
-
-    <h1>Table border, bg colour</h1>
-      <p>In HTML, you can enhance the appearance of tables by adding a <strong>border</strong> and a <strong>background color</strong>. 
-    The <code>border</code> attribute or CSS adds visible lines around the table and its cells, while <code>background-color</code> sets the table’s background for better readability. 
-    For example: <code>&lt;<table border=1><tr background-color="green"></code> creates a table with a gray background and a solid border.  </p>
-
-  
-
-
-<img src=" newimages/html tables 3.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-      
-
-
-<h1>Table row height</h1>
-      <P>    In HTML, you can control the height of table rows to make your tables more readable and visually appealing. 
-    This can be done using the <code>height</code> attribute in the <code>&lt;tr&gt;</code> tag or through CSS styling. 
-    For example: <code>&lt;tr style="height:50px;"&gt;&lt;td&gt;Content&lt;/td&gt;&lt;/tr&gt;</code> creates a table row with a height of 50 pixels.   </P>
-
- 
-
-<img src=" newimages/html tables cellspacing colspan 6.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-
-
-<h1>Colspan</h1>
-      <p>   In HTML tables, the <strong>colspan</strong> attribute is used to make a single table cell span across multiple columns. 
-    This is helpful when you want to create a header or section that covers more than one column for better table organization. 
-    For example: <code>&lt;td colspan="2"&gt;Merged Cell&lt;/td&gt;</code> will combine two columns into one cell.      </p>
-
- 
-
-
-<img src=" newimages/html tables width 7.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-
-
-      
-
-<h1>Nav tag </h1>
-      <p> The <strong>&lt;nav&gt;</strong> tag in HTML is used to define a section of navigation links on a webpage. 
-    It helps organize menus, site links, or table-of-contents links in a semantic and structured way. 
-    For example: 
-    <code>&lt;nav&gt;&lt;a href='index.html'&gt;Home&lt;/a&gt; | &lt;a href='about.html'&gt;About&lt;/a&gt;&lt;/nav&gt;</code> 
-    creates a simple navigation menu. </p>
-
-  
-
-<img src=" newimages/Navigation bar.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-      
-
-<h1>Ordered list</h1>
-      <p>  In HTML, the <strong>&lt;ol&gt;</strong> tag is used to create an ordered (numbered) list, while the <strong>&lt;li&gt;</strong> tag defines each item within that list. 
-    Ordered lists are useful for instructions, steps, or ranking information. For example: 
-    <code>&lt;ol&gt;&lt;li&gt;Step 1&lt;/li&gt;&lt;li&gt;Step 2&lt;/li&gt;&lt;/ol&gt;</code> 
-    will display a numbered list with two steps. </p>
-
- 
-
-
-<img src=" newimages/Ordered HTML list.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-      
-
-<h1> Ordered list with letters </h1>
-      <p>  In HTML, you can create an ordered list that uses letters instead of numbers by using the <code>type</code> attribute with the <strong>&lt;ol&gt;</strong> tag. 
-    For example, <code>&lt;ol type="A"&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;/ol&gt;</code> 
-    will display a list with items labeled as "A", "B", and so on. This method is useful for outlining points, options, or sections in a structured way.    </p>
-
- 
-
-
-<img src=" newimages/ordered list with letters.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-      
-
-<h1>Section tag</h1>
-      <p>    The <strong>&lt;section&gt;</strong> tag in HTML is used to define a distinct section of a webpage that groups related content together. 
-    Each section can include headings, paragraphs, images, and other HTML elements to create a meaningful block of information. 
-    For example: 
-    <code>&lt;section&gt;&lt;h2&gt;About Our Website&lt;/h2&gt;&lt;p&gt;LearnScienceXY provides tutorials and articles.&lt;/p&gt;&lt;/section&gt;</code>      </p>
-
-  <div class="section">
-    <div class="image-box">
-      <img src="newimages/Section tag.PNG    " alt="PHP Code Screenshot" />
-    </div>
-   
-  </div>
-
-
-<h1>HTML Example 30</h1>
-
- 
-
-
-<img src=" newimages/unoredere html list 11.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-
-
-
-      
-
-<h1>HTML Example 31</h1>
-
-  
-
-
-<img src=" newimages/Unordered list with square bullets.PNG   " alt=" HTML Code Screenshot"
-     style="display:block; margin:auto; width:900px; height:250px;"/>
-
-
-
-
-      
-
-<h1>HTML Example 32</h1>
-
-  <div class="section">
-    <div class="image-box">
-      <img src="newimages/Water 1.PNG    " alt="PHP Code Screenshot" />
-    </div>
-   
-  </div>
-
-
-
-   <h1>HTML Example 33</h1>
-
-  <div class="section">
-    <div class="image-box">
-      <img src="newimages/Web design COT 2.PNG    " alt="PHP Code Screenshot" />
-    </div>
-  </div>   
-      
-
-<h1>HTML Example 34</h1>
-
-  <div class="section">
-    <div class="image-box">
-      <img src="newimages/Web design COT 3.PNG    " alt="PHP Code Screenshot" />
-    </div>
-   
-  </div>
-
-
-<h1>HTML Example 35</h1>
-
-  <div class="section">
-    <div class="image-box">
-      <img src="newimages/Web design COT 4.PNG    " alt="PHP Code Screenshot" />
-    </div>
-   
-  </div>
-
-
-
-      
-      
-
-
-
-      
-
-  
-  <!-- Ad slot: safe placement between content sections -->
-  <div class="ad-container">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-XXXXXXXXXXXXXX"
-         data-ad-slot="YYYYYYYYYY"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
-
-  <p>Some explanation text about the snippet …</p> 
 
       
     </section>
