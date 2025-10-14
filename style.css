@@ -16,9 +16,9 @@ body {
 .container {
   
   width: auto;
-  max-width: 960px;
+  max-width: auto;
   margin: auto;
-  padding: 20px;
+  padding: auto;
 }
 
 header {
@@ -145,6 +145,7 @@ table {
       padding: 10px;
       text-align: left;
     }
+
 
 
 
