@@ -4,6 +4,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  background-color: #FAFFB8 ;
 }
 
 
@@ -14,7 +15,7 @@ body {
 
 
 .container {
-  max-width: 760px;
+  max-width: 1060px;
   margin: 0 auto;
   padding: 20px;
   
@@ -144,6 +145,7 @@ table {
       padding: 10px;
       text-align: left;
     }
+
 
 
 
