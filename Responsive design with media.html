@@ -80,25 +80,12 @@
 <style>
 
 
-/* Reset defaults */
-html, body {
-  margin: 0;
-  padding: 0;
-}
 
-/* Wrapper / container around your content */
-.main-content, .wrapper, #content {
-  width: 90%;
-  max-width: 800px;
-  margin: 0 auto;         /* center horizontally */
-  padding: 20px;           /* padding on both sides */
-}
 
 
 
   /* ========== Code Blocks ========== */
-pre {
-  background: #f4f4f4;
+p
   padding: 12px;
   border-radius: 6px;
   overflow-x: auto;
@@ -108,53 +95,8 @@ pre {
 code {
   font-family: "Courier New", monospace;
 }
-
-
-
-
   
-  /* General body styling */
-  body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #222;
-  }
 
-  h1 {
-    text-align: left;
-    color: #333;
-    margin-top: 40px;
-  }
-
-  /* Section container — stack image and code vertically */
-  .section {
-    display: flex;
-    flex-direction: column; /* Ensures image is above code */
-    align-items: center;
-    justify-content: center;
-    margin: 30px auto;
-    width: 100%;
-    max-width: 900px; /* Keeps layout centered and readable */
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
-    padding: 20px;
-    box-sizing: border-box;
-  }
-
-  /* Image box styling */
-  .image-box img {
-    width: 100%;
-    height: 450px;
-    display: block;
-    border-radius: 6px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
-  
-    
-  }
 
   /* Code box styling */
   .code-box pre {
@@ -170,11 +112,7 @@ code {
     color: #1b1f23;
   }
 
-  /* Responsive layout adjustments */
-  @media (max-width: 600px) {
-    .section {
-      padding: 15px;
-    }
+ 
 
     .code-box pre {
       font-size: 0.9rem;
@@ -182,40 +120,8 @@ code {
     }
   }
 
-  /* Ad container styling — keeps clear separation */
-  .ad-container {
-    margin: 40px auto;
-    text-align: center;
-    max-width: 900px;
-  }
-
-
-
-/* Small screens: slightly reduce paddings */
-@media (max-width: 480px) {
-  .figure { padding: 0 0.6rem; }
-  .code-block { padding: 0.8rem; font-size: 0.9rem; }
-}
-
-
-
-
-
-
-
-
+ 
     
-</style>
-
-
-
-  
-
-
-
-
-
-  
 </style>
 
 
@@ -278,9 +184,11 @@ code {
 
   
 
-  <main class="container">
+    <main class="container">
     <section class="intro">
-
+    </section>
+     <section class="articles">
+      <article>
 
  <h1>✅ CSS Responsive Design with Media Queries – A Beginner-Friendly Guide</h1>
 
@@ -342,27 +250,24 @@ code {
   </ul>
 
 
-<div class="section">
-    <div class="image-box">
-      <img src="imagescss/Responsive design with media 1.png" alt=" Responsive design with media queries " />
-    </div>
-  </div>
 
-<div class="section">
-    <div class="image-box">
-      <img src="imagescss/Responsive design with media 2.png" alt=" Responsive design with media queries " />
-    </div>
-  </div>
-            
+
+
+<img src="imagescss/Responsive design with media 1.png" alt=" Responsive design with media queries    " 
+     style="display:block; margin:auto; width:800px;"/>
+
+
+
+      
+       <img src="imagescss/Responsive design with media 2.png" alt=" Responsive design with media queries    " 
+     style="display:block; margin:auto; width:800px;"/>
+     
       
 
-<div class="section">
-    <div class="image-box">
-      <img src="imagescss/Responsive design with media 3.png" alt=" Responsive design with media queries " />
-    </div>
-</div>
 
 
+     <img src="imagescss/Responsive design with media 3.png" alt=" Responsive design with media queries    " 
+     style="display:block; margin:auto; width:800px;"/>
 
 
 
@@ -416,7 +321,7 @@ code {
 
 
 
-      
+      </article>
     </section>
   </main>
 
