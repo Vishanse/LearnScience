@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://Vishanse.github.io/sitemap.xml
+Sitemap: https://vishanse.github.io/sitemap.xml
