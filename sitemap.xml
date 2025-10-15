@@ -1,87 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://learnsciencexy.site/</loc>
+    <loc>https://www.learnsciencexy.site/</loc>
     <lastmod>2025-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://learnsciencexy.site/about.html</loc>
+    <loc>https://www.learnsciencexy.site/about.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
   <url>
-    <loc>https://learnsciencexy.site/article-atom-structure.html</loc>
+    <loc>https://www.learnsciencexy.site/contact.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
   <url>
-    <loc>https://learnsciencexy.site/article-climate-change.html</loc>
+    <loc>https://www.learnsciencexy.site/privacy.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
   <url>
-    <loc>https://learnsciencexy.site/article-ecosystem.html</loc>
+    <loc>https://www.learnsciencexy.site/protecting our planet.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
   <url>
-    <loc>https://learnsciencexy.site/article-electricity-basics.html</loc>
+    <loc>https://www.learnsciencexy.site/article-water-cycle.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
   <url>
-    <loc>https://learnsciencexy.site/article-human-digestive.html</loc>
+    <loc>https://www.learnsciencexy.site/article-carbon-cycle.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
 
  <url>
-    <loc>https://learnsciencexy.site/article-newton-laws.html</loc>
-    <lastmod>2025-09-06</lastmod>
-  </url>
-
-
- <url>
-    <loc>https://learnsciencexy.site/article-photosynthesis.html</loc>
-    <lastmod>2025-09-06</lastmod>
-  </url>
-
- <url>
-    <loc>https://learnsciencexy.site/article-simple-machines.html</loc>
+    <loc>https://www.learnsciencexy.site/article-human-brain.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
 
 
  <url>
-    <loc>https://learnsciencexy.site/article-states-of-matter.html</loc>
+    <loc>https://www.learnsciencexy.site/Renewable Energy Technologies.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
 
  <url>
-    <loc>https://learnsciencexy.site/article-water-cycle.html</loc>
+    <loc>https://www.learnsciencexy.site/Computer Networking.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
 
 
  <url>
-    <loc>https://learnsciencexy.site/contact.html</loc>
+    <loc>https://www.learnsciencexy.site/Computer Network Types.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+
+ <url>
+    <loc>https://www.learnsciencexy.site/SQL.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+
+
+ <url>
+    <loc>https://www.learnsciencexy.site/HTMLnew.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
 
 
 <url>
-    <loc>https://learnsciencexy.site/index.html</loc>
+    <loc>https://www.learnsciencexy.site/HTML+CSS.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
 
 
 <url>
-    <loc>https://learnsciencexy.site/privacy.html</loc>
+    <loc>https://www.learnsciencexy.site/CSSflexbox.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
 
 
 <url>
-    <loc>https://learnsciencexy.site/article-human-brain.html</loc>
+    <loc>https://www.learnsciencexy.site/CSSanimationtransition.html</loc>
     <lastmod>2025-09-06</lastmod>
   </url>
  
   
- 
+
+<url>
+    <loc>https://www.learnsciencexy.site/tutorials.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+
+
+<url>
+    <loc>https://www.learnsciencexy.site/snippets.html</loc>
+    <lastmod>2025-09-06</lastmod>
+  </url>
+
+
+
+
+
+
+
+
+  
 </urlset>
