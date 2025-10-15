@@ -2,7 +2,7 @@
 
 Welcome to **LearnScience**, a GitHub Pages-powered website to make science learning fun and accessible.
 
-🌐 **Live Site**: [www.learnsciencexy.site](https://www.learnsciencexy.site)
+🌐 **Live Site**: [www.learnsciencexy.site](https://www.learnsciencexy.site) 
 
 ---
 
