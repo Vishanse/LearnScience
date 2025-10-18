@@ -69,7 +69,35 @@
       background-attachment: fixed;
 
 
+<style>
+  /* Default desktop */
+  #articles-container {
+    display: block;
+    overflow-x: visible;
+    white-space: normal;
+  }
 
+  /* Mobile view */
+  @media (max-width: 768px) {
+    #articles-container {
+      display: flex !important;
+      overflow-x: auto !important;
+      -webkit-overflow-scrolling: touch;
+      gap: 15px;
+      padding-bottom: 10px;
+      white-space: nowrap;
+      scroll-snap-type: x mandatory;
+    }
+    
+    #articles-container article {
+      scroll-snap-align: start;
+      flex: 0 0 80%;
+      min-width: 80%;
+      margin: 0;
+      white-space: normal;
+    }
+  }
+</style>
 
 
 
@@ -167,48 +195,50 @@
       
       <h2>Latest Lessons</h2>
 
+<div style="display: block;" 
+     id="articles-container">
 
 
 <h2>Biology</h2>
 
- <article  style="margin: 0; background: linear-gradient(to right, D9FFFE 50%, AEFFFC 50%);">          
+ <article style="min-width: 80%; flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" >          
         <h3><a href="protecting our planet.html">    Protecting our planet   </a></h3>
         <p> “Learn how water cycles through nature and impacts our environment.”    .</p>
       </article>
 <br>
-  <article>
+  <article  style="min-width: 80%; flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
         <h3><a href="article-water-cycle.html">The Water Cycle Explained</a></h3>
         <p> “Explore evaporation, condensation, precipitation, and how the cycle sustains life.” .</p>
       </article>
       
 
-      <article>
+      <article style="min-width: 80%; flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" >
         <h3><a href="article-carbon-cycle.html">The Carbon Cycle Explained</a></h3>
         <p> “Understand how carbon flows between living beings, atmosphere, and oceans.”   .</p>
       </article>
 
     
  
-<article>
+<article style="min-width: 80%; flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" >
   <h3><a href="article-human-brain.html">The Human Brain Explained</a></h3>
   <p>Explore how the brain controls your body and processes thoughts, memories, and emotions.</p>
 </article>
 
 
-<article>
+<article  style="min-width: 80%; flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
   <h3><a href="Renewable Energy Technologies.html"> Renewable Energy Technologies Explained</a></h3>
   <p> “See how solar, wind, and other technologies power a sustainable future.”       .</p>
 </article>
 
 <h2>Technology behind smartphones, Internet, Wi-Fi </h2>
 
-<article>
+<article  style="min-width: 80%; flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
   <h3><a href="Computer Networking.html">Components of a data communication system Explained </a></h3>
   <p>  “Learn the building blocks behind how devices send and receive data.”   .</p>
 </article>
 
 
-     <article>
+     <article style="min-width: 80%; flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" >
   <h3><a href="Computer Network Types.html"> Types of network topology systems Explained</a></h3>
   <p>  “Explore different network layouts and how they affect connectivity.”        .</p>
 </article> 
@@ -217,7 +247,7 @@
       <h2> Database Development Tutorials </h2>
 
 
- <article>
+ <article  style="min-width: 80%; flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
   <h3><a href="SQL.html"> SQL step by step Explained</a></h3>
   <p> “Start your journey learning how databases store, query, and manage data.”    .</p>
 </article> 
@@ -226,37 +256,37 @@
 <h2> Web Development Tutorials    </h2>
 
 
- <article>
+ <article  style="min-width: 80%; flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
   <h3><a href="HTMLnew.html"> HTML step by step Explained</a></h3>
   <p> “Begin learning the structure of webpages using HTML fundamentals.”   .</p>
 </article> 
 
 
    
- <article>
+ <article  style="min-width: 80%; flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
   <h3><a href="HTML+CSS.html"> HTML + CSS step by step Explained</a></h3>
   <p>  “Learn how HTML and CSS work together to build styled webpages.”       .</p>
 </article>    
 
 
-<article>
+<article  style="min-width: 80%; flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
   <h3><a href="CSSflexbox.html"> CSS flexbox step by step Explained</a></h3>
   <p> “Master Flexbox to create responsive and flexible layouts easily.”       .</p>
 </article>    
 
 
-<article>
+<article style="min-width: 80%; flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" >
   <h3><a href=" CSSanimationtransition.html "> CSS animations and transitions Explained</a></h3>
   <p> “  Learn how to use CSS transitions and animations to enhance your web design with smooth, responsive effects that improve user experience and visual appeal.”  .</p>
 </article>  
       
  
-  <article>
+  <article  style="min-width: 80%; flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
   <h3><a href="Responsive design with media.html">  Responsive design with media queries  </a></h3>
   <p>Explore how CSS animations and transitions can enhance your website's design by adding smooth, responsive effects that support a better user experience.</p>
 </article>    
 
-      
+      </div>
     </section>
   </main>
 
@@ -267,6 +297,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
