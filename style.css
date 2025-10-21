@@ -4,7 +4,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #FAFFB8 ;
+  
 
 background-image: url('images/united states.PNG'); 
       background-size: cover;
@@ -161,6 +161,7 @@ table {
   display: block;
   margin: 0 auto;
 }
+
 
 
 
