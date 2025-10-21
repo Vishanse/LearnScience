@@ -5,6 +5,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #FAFFB8 ;
+
+background-image: url('images/united states.PNG'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  
 }
 
 
@@ -154,6 +161,7 @@ table {
   display: block;
   margin: 0 auto;
 }
+
 
 
 
