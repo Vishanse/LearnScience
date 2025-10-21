@@ -173,12 +173,12 @@
   }
 
 
-body {
-  color: #222222;
-}
-
-a {
-  color: #004466;
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.7); /* light white overlay */
+  z-index: -1;
 }
 
 
@@ -404,6 +404,7 @@ a {
   </footer>
 </body>
 </html>
+
 
 
 
